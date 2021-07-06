@@ -2,12 +2,31 @@ body{
     margin: 0px;
     font-family: 'Oswald', sans-serif;
 }
+h1{
+    font-size: 35px;
+}
+.menu-btn{
+    text-decoration: none;
+    background-image:linear-gradient(90deg, #3F2B96 0%, #A8C0FF 100%);
+    padding: 10px 20px;
+    border-radius: 50px;
+    color:white;
+    font-weight: 50px;
+    margin-right: 40px;
+}
+.menu-bar{
+    margin-top:  20px;
+    margin-left: 500px;
+}
 p{
     color: gray;
-    font-size: 13px;
+    font-size: 20px;
 }
 .orange{
     color: orange;
+}
+.font{
+    padding-top: 100px;
 }
 .half-width{
     margin-top: 30px;
@@ -21,7 +40,7 @@ p{
 
 }
 .half-width img{
-    width: 90%;
+    width: 100%;
 }
 .link-botton{
     text-decoration: none;
@@ -30,6 +49,7 @@ p{
     border-radius: 20px;
     color: white;
     font-weight: 500;
+
 
 
 }
@@ -43,7 +63,7 @@ p{
 .recipies-item{
     
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
     width: 90%;
     margin-left: 5%;
 
@@ -54,19 +74,19 @@ p{
     margin-right: 2%;
     width: 31%;
     border-radius: 30px;
-    box-shadow:9px 9px 20px grey ;
+    box-shadow:1px 1px 15px grey ;
 }
 .Halim{
     margin-right: 2%;
     width: 31%;
     border-radius: 30px;
-    box-shadow:10px 10px 20px grey ;
+    box-shadow:1px 1px 15px grey ;
 }
 .vagitable{
     margin-right: 3%;
     width: 31%;
     border-radius: 30px;
-    box-shadow:10px 10px 20px grey ;
+    box-shadow:1px 1px 15px grey ;
 }
 .img{
     width: 92%;
@@ -97,7 +117,7 @@ p{
 .item-p{
     padding-left: 5%;
     padding-right: 1%;
-    padding-bottom: 5%;
+    padding-bottom: 7%;
 }
 .item{
     padding-left: 5%;
